@@ -175,3 +175,58 @@ Das System zeigt eine Fehlermeldung an und verhindert das Speichern der Bestellu
 - Die Akzeptanzkriterien müssen vor einer verbindlichen Testdurchführung freigegeben werden.
 
 **Hinweis:** Dieser Testfall wurde für einen fiktiven, noch nicht freigegebenen Change Request konzipiert. Eine tatsächliche Testdurchführung hat nicht stattgefunden.
+
+## TC-007 – Fehler beim Versand der Bestellbestätigung
+
+**Zugehöriger Change Request:** CR-001
+
+**Zugehörige Anforderung:** FR-002
+
+**Zugehörige User Story:** US-002
+
+**Akzeptanzkriterium:** AK-006 (vorläufig)
+
+**Testart:** Negativer funktionaler Test
+
+**Status:** Entwurf – Nicht ausgeführt, noch nicht freigegeben
+
+### Testziel
+
+Überprüfen, ob ein fehlgeschlagener Versand der Bestellbestätigung im System als Fehler erfasst wird.
+
+### Testvoraussetzungen
+
+- Eine funktionsfähige Testumgebung ist verfügbar.
+- Die Bestellung kann erfolgreich gespeichert werden.
+- Der automatische E-Mail-Versand ist implementiert.
+- Ein Versandfehler kann in der Testumgebung gezielt simuliert werden.
+
+### Testdaten
+
+- Artikelnummer: ART-1001 (angenommen gültig)
+- Bestellmenge: 5
+- E-Mail-Adresse: kunde@example.com
+- Simulierter Fehler: E-Mail-Dienst nicht erreichbar
+
+### Testschritte
+
+1. Testumgebung vorbereiten.
+2. Einen Ausfall des E-Mail-Dienstes simulieren.
+3. Eine Bestellung mit gültigen Daten erfassen.
+4. Bestellung erfolgreich speichern.
+5. Den automatischen E-Mail-Versand auslösen lassen.
+6. Prüfen, ob der Versandfehler im System erfasst wird.
+
+### Erwartetes Ergebnis
+
+- Der E-Mail-Versand schlägt aufgrund des simulierten Dienstausfalls fehl.
+- Der Versandfehler wird im System erfasst.
+
+### Offene Punkte
+
+- Soll das System den Versand automatisch wiederholen?
+- Soll ein Administrator über den Fehler informiert werden?
+- Wie soll der Kunde bei dauerhaft fehlgeschlagenem Versand informiert werden?
+- Welche Auswirkungen hat der Versandfehler auf den Bestellstatus?
+
+**Hinweis:** Der Testfall basiert auf dem vorläufigen Akzeptanzkriterium AK-006. Das weitere Fehlerbehandlungsverhalten ist noch mit dem Auftraggeber abzustimmen. Der Test wurde nicht ausgeführt.
