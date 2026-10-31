@@ -30,3 +30,14 @@ Das BPMN-Modell visualisiert den digitalen Soll-Bestellprozess einschließlich B
 Die folgende Abbildung zeigt den digitalen Soll-Bestellprozess mit den wichtigsten Entscheidungspunkten und Prozessabläufen.
 
 ![BPMN Soll-Bestellprozess](Bestellprozess-Soll-BPMN.png)
+
+## Eingesetzte Methoden und Tools
+
+| Bereich | Methoden und Tools |
+|---|---|
+| Business Analysis | Ist-Analyse, Schwachstellenanalyse, Soll-Konzeption |
+| Requirements Engineering | Funktionale und nicht-funktionale Anforderungen, Priorisierung, Akzeptanzkriterien |
+| Agile Methoden | User Stories |
+| Prozessmodellierung | BPMN 2.0, Camunda Modeler |
+| Qualitätssicherung | Testfälle und Testdokumentation |
+| Dokumentation und Versionsverwaltung | Markdown, GitHub |
