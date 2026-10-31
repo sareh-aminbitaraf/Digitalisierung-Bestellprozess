@@ -18,3 +18,9 @@ Im Mittelpunkt stehen Business Analysis, Requirements Engineering und IT-Projekt
 - Vorbereitung und Dokumentation von Testfällen
 
 **Projekttyp:** Fiktives Praxisprojekt für ein professionelles IT-Portfolio.
+
+## BPMN-Prozessmodell
+
+Das BPMN-Modell visualisiert den digitalen Soll-Bestellprozess einschließlich Bestellvalidierung, Bestandsprüfung und alternativer Prozessabläufe.
+
+[BPMN-Modell herunterladen](Bestellprozess-Soll-BPMN.bpmn)
