@@ -1,5 +1,21 @@
 # Digitalisierung eines Bestellprozesses
+## Projektrolle und Verantwortlichkeiten
 
+**Rolle:** Business Analyst / Requirements Engineer (eigenständiges, fiktives Praxisprojekt)
+
+In diesem selbstständig erarbeiteten Praxisprojekt habe ich folgende Aufgaben übernommen:
+
+- Analyse und Dokumentation des bestehenden Bestellprozesses (Ist-Analyse)
+- Identifikation von Schwachstellen und Optimierungspotenzialen
+- Konzeption eines digitalen Soll-Prozesses
+- Modellierung des Soll-Prozesses mit BPMN 2.0
+- Formulierung funktionaler und nicht-funktionaler Anforderungen
+- Erstellung von User Stories und Akzeptanzkriterien
+- Konzeption funktionaler, negativer und nicht-funktionaler Testfälle
+- Erstellung einer Requirements Traceability Matrix
+- Dokumentation und Auswirkungsanalyse eines fiktiven Change Requests
+
+**Projektkontext:** Das Projekt dient dem praktischen Aufbau und der Demonstration von Kompetenzen in Business Analysis und Requirements Engineering. Es wurde keine produktive Software implementiert.
 ## Projektdokumentation
 
 Die folgenden Dokumente zeigen die einzelnen Schritte der Business Analyse, Prozessoptimierung und Anforderungsdokumentation in diesem fiktiven Praxisprojekt.
