@@ -24,3 +24,9 @@ Im Mittelpunkt stehen Business Analysis, Requirements Engineering und IT-Projekt
 Das BPMN-Modell visualisiert den digitalen Soll-Bestellprozess einschließlich Bestellvalidierung, Bestandsprüfung und alternativer Prozessabläufe.
 
 [BPMN-Modell herunterladen](Bestellprozess-Soll-BPMN.bpmn)
+
+### BPMN-Prozessdiagramm
+
+Die folgende Abbildung zeigt den digitalen Soll-Bestellprozess mit den wichtigsten Entscheidungspunkten und Prozessabläufen.
+
+![BPMN Soll-Bestellprozess](Bestellprozess-Soll-BPMN.png)
