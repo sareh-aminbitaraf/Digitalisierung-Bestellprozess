@@ -93,3 +93,32 @@ Das System zeigt eine Fehlermeldung an und verhindert das Speichern der Bestellu
 **Erwartetes Ergebnis:** Das System zeigt eine Fehlermeldung an und verhindert das Speichern der Bestellung.
 
 **Status:** Nicht ausgeführt
+
+
+## TC-005 – Prüfung der Antwortzeit bei der Bestellvalidierung
+
+**Zugehörige Anforderung:** NFR-001
+
+**Testart:** Performance-Test
+
+**Testziel:** Überprüfung, ob mindestens 95 % der Validierungsanfragen innerhalb von maximal 2 Sekunden beantwortet werden.
+
+**Testvoraussetzung:** Eine funktionsfähige Testumgebung mit implementierter Bestellvalidierung ist verfügbar.
+
+**Testdaten:** 200 Validierungsanfragen mit definierten Eingabedaten.
+
+**Testschritte:**
+1. Testumgebung vorbereiten.
+2. 200 Validierungsanfragen ausführen.
+3. Antwortzeit jeder Anfrage messen.
+4. Anzahl der Anfragen mit einer Antwortzeit von maximal 2 Sekunden ermitteln.
+5. Anteil der rechtzeitig beantworteten Anfragen berechnen.
+6. Ergebnis mit dem Grenzwert von 95 % vergleichen.
+
+**Erwartetes Ergebnis:** Mindestens 190 von 200 Anfragen werden innerhalb von maximal 2 Sekunden beantwortet.
+
+**Bestanden-Kriterium:** Anteil rechtzeitig beantworteter Anfragen >= 95 %.
+
+**Status:** Nicht ausgeführt
+
+**Hinweis:** Dieser Testfall wurde im Rahmen eines fiktiven Praxisprojekts konzipiert. Eine tatsächliche Testdurchführung hat nicht stattgefunden.
