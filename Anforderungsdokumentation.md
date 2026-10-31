@@ -33,3 +33,36 @@ Sicherstellung einer schnellen und effizienten Bestellerfassung.
 - AK-NFR-001: Bei 95 % der Validierungsanfragen muss die Rückmeldung innerhalb von 2 Sekunden erfolgen.
 
 **Hinweis:** Die Zeitvorgaben sind beispielhafte Annahmen für dieses Portfolio-Projekt.
+
+
+
+## FR-002 – Automatischer Versand einer Bestellbestätigung per E-Mail
+
+**Typ:** Funktionale Anforderung
+
+**Quelle:** Change Request CR-001
+
+**Priorität:** Mittel (Vorschlag)
+
+**Status:** Entwurf – Noch nicht freigegeben
+
+### Beschreibung
+
+Das System soll nach erfolgreicher Speicherung einer Bestellung automatisch eine Bestellbestätigung per E-Mail an den Kunden versenden.
+
+### Vorläufige Akzeptanzkriterien
+
+- **AK-004:** Nach erfolgreicher Speicherung einer Bestellung wird der automatische Versand einer Bestellbestätigung ausgelöst.
+- **AK-005:** Die Bestellbestätigung wird an die für die Bestellung hinterlegte E-Mail-Adresse adressiert.
+- **AK-006:** Bei einem fehlgeschlagenen E-Mail-Versand wird der Fehler im System erfasst. Das weitere Vorgehen muss mit dem Auftraggeber abgestimmt werden.
+
+### Offene Fragen
+
+1. Welche Informationen muss die Bestellbestätigung enthalten?
+2. Soll bei einem Versandfehler automatisch ein erneuter Versand versucht werden?
+3. Wie soll der Kunde bei einem dauerhaft fehlgeschlagenen Versand informiert werden?
+4. Welche Anforderungen gelten für die Prüfung der E-Mail-Adresse?
+
+### Hinweis
+
+Diese Anforderung wurde aus dem fiktiven Change Request CR-001 abgeleitet. Die Akzeptanzkriterien sind vorläufig und müssen vor einer Umsetzung mit dem Auftraggeber abgestimmt werden.
