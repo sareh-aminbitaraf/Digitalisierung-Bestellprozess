@@ -11,7 +11,7 @@ Diese Matrix dokumentiert die Nachverfolgbarkeit zwischen Anforderungen, User St
 | FR-001 | US-001 | AK-001 | TC-002 | Dokumentiert, nicht ausgeführt |
 | FR-001 | US-001 | AK-002 | TC-003 | Dokumentiert, nicht ausgeführt |
 | FR-001 | US-001 | AK-003 | TC-001, TC-004 | Dokumentiert, nicht ausgeführt |
-| NFR-001 | Noch nicht definiert | AK-NFR-001 | Noch nicht definiert | Testfall offen |
+| NFR-001 | Noch nicht definiert | AK-NFR-001 | TC-005 | Dokumentiert, nicht ausgeführt |
 
 ## 3. Testabdeckung
 
@@ -21,7 +21,7 @@ Für FR-001 sind alle drei dokumentierten Akzeptanzkriterien durch mindestens ei
 - AK-002: TC-003 – Unbekannte Artikelnummer
 - AK-003: TC-001 – Negative Bestellmenge; TC-004 – Bestellmenge null
 
-Für NFR-001 muss noch ein Performance-Testfall definiert werden.
+Für NFR-001 wurde der Performance-Testfall TC-005 definiert. Die Testdurchführung steht noch aus.
 
 ## 4. Hinweis
 
