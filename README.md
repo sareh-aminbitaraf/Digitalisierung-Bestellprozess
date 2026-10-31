@@ -41,3 +41,26 @@ Die folgende Abbildung zeigt den digitalen Soll-Bestellprozess mit den wichtigst
 | Prozessmodellierung | BPMN 2.0, Camunda Modeler |
 | Qualitätssicherung | Testfälle und Testdokumentation |
 | Dokumentation und Versionsverwaltung | Markdown, GitHub |
+
+
+
+## Projektergebnisse und Mehrwert
+
+Im Rahmen dieses fiktiven Praxisprojekts wurden folgende Ergebnisse erarbeitet:
+
+- Dokumentation und Analyse des bestehenden manuellen Bestellprozesses
+- Identifikation zentraler Schwachstellen und Optimierungspotenziale
+- Konzeption eines digitalen Soll-Prozesses
+- Modellierung des Soll-Prozesses mit BPMN 2.0
+- Definition funktionaler und nicht-funktionaler Anforderungen
+- Erstellung einer User Story mit Akzeptanzkriterien
+- Dokumentation eines beispielhaften Testfalls
+
+### Erwarteter Mehrwert
+
+- Reduzierung manueller Eingabefehler durch automatische Validierung
+- Verkürzung der Bearbeitungszeiten durch digitale Prozessschritte
+- Verbesserung der Transparenz durch eine zentrale Statusübersicht
+- Standardisierung und Nachvollziehbarkeit des Bestellprozesses
+
+**Hinweis:** Die beschriebenen Verbesserungen sind erwartete Vorteile des konzipierten Soll-Prozesses und wurden nicht durch eine produktive Implementierung nachgewiesen.
