@@ -1,12 +1,19 @@
 # Digitalisierung eines Bestellprozesses
 
-## 1. Projektübersicht
+## Projektdokumentation
 
-Dieses Portfolio-Projekt beschreibt die beispielhafte Digitalisierung eines manuellen Bestellprozesses in einem Unternehmen.
+Die folgenden Dokumente zeigen die einzelnen Schritte der Business Analyse, Prozessoptimierung und Anforderungsdokumentation in diesem fiktiven Praxisprojekt.
 
-Ziel ist es, den bestehenden Bestellprozess zu analysieren, Schwachstellen zu identifizieren und Anforderungen an eine digitale Lösung zu definieren.
-
-Im Mittelpunkt stehen Business Analysis, Requirements Engineering und IT-Projektkoordination.
+| Dokument | Inhalt |
+|---|---|
+| [Ist-Prozess-Analyse](Ist-Prozess-Analyse.md) | Analyse des bestehenden manuellen Bestellprozesses |
+| [Soll-Prozess-Analyse](Soll-Prozess-Analyse.md) | Konzeption des optimierten digitalen Bestellprozesses |
+| [BPMN-Soll-Prozess](Bestellprozess-Soll-BPMN.png) | Grafische Darstellung des Soll-Prozesses |
+| [Anforderungsdokumentation](Anforderungsdokumentation.md) | Funktionale und nicht-funktionale Anforderungen |
+| [User Stories](User-Stories.md) | Anwenderbedürfnisse und Akzeptanzkriterien |
+| [Testdokumentation](Testdokumentation.md) | Funktionale Tests, Negativtests und Performance-Test |
+| [Traceability Matrix](Traceability-Matrix.md) | Nachverfolgbarkeit von Anforderungen und Testfällen |
+| [Change Request](Change-Request.md) | Dokumentation und Analyse einer vorgeschlagenen Änderung |
 
 ### Projektziele
 
