@@ -26,3 +26,21 @@ Für NFR-001 wurde der Performance-Testfall TC-005 definiert. Die Testdurchführ
 ## 4. Hinweis
 
 Die Testabdeckung bezieht sich ausschließlich auf die dokumentierten Testszenarien. Die Testfälle wurden konzipiert, aber nicht ausgeführt. Eine produktive Implementierung wurde nicht durchgeführt.
+
+## 5. Nachverfolgbarkeit des Change Requests CR-001
+
+Die folgende Übersicht zeigt die Beziehungen zwischen dem Change Request, der daraus abgeleiteten funktionalen Anforderung und der zugehörigen User Story.
+
+| Change Request | Anforderung | User Story | Akzeptanzkriterien | Testfälle | Status |
+|---|---|---|---|---|---|
+| CR-001 | FR-002 | US-002 | AK-004, AK-005, AK-006 (vorläufig) | Noch nicht definiert | Entwurf – Noch nicht freigegeben |
+
+### Offene Punkte
+
+- Die Akzeptanzkriterien müssen mit dem Auftraggeber abgestimmt werden.
+- Testfälle für FR-002 müssen noch konzipiert werden.
+- Der Umgang mit fehlgeschlagenem E-Mail-Versand ist noch zu klären.
+- Die Änderung darf erst nach entsprechender Freigabe als verbindliche Anforderung betrachtet werden.
+
+**Hinweis:** Die Verknüpfungen dokumentieren einen fiktiven Änderungsvorschlag. Eine Freigabe oder Umsetzung ist nicht erfolgt.
+
