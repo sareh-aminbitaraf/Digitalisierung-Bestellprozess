@@ -29,3 +29,67 @@ Das System zeigt eine Fehlermeldung an und verhindert das Speichern der Bestellu
 **Teststatus:** Nicht ausgeführt
 
 **Hinweis:** Dieser Testfall wurde für ein fiktives Portfolio-Projekt erstellt. Es wurde noch kein realer Softwaretest durchgeführt.
+
+## TC-002 – Prüfung gültiger Bestelldaten
+
+**Zugehörige Anforderung:** FR-001
+
+**Zugehörige User Story:** US-001
+
+**Akzeptanzkriterium:** AK-001
+
+**Testdaten:** Artikelnummer ART-1001 (angenommen gültig), Bestellmenge 5
+
+**Testschritte:**
+1. Bestellformular öffnen.
+2. Gültige Artikelnummer eingeben.
+3. Bestellmenge 5 eingeben.
+4. Auf „Speichern“ klicken.
+
+**Erwartetes Ergebnis:** Die Eingaben werden als gültig erkannt und nicht aufgrund der Eingabevalidierung abgelehnt.
+
+**Status:** Nicht ausgeführt
+
+---
+
+## TC-003 – Prüfung einer unbekannten Artikelnummer
+
+**Zugehörige Anforderung:** FR-001
+
+**Zugehörige User Story:** US-001
+
+**Akzeptanzkriterium:** AK-002
+
+**Testdaten:** Artikelnummer INVALID-999, Bestellmenge 5
+
+**Testschritte:**
+1. Bestellformular öffnen.
+2. Unbekannte Artikelnummer eingeben.
+3. Bestellmenge 5 eingeben.
+4. Auf „Speichern“ klicken.
+
+**Erwartetes Ergebnis:** Das System zeigt eine Fehlermeldung an und verhindert das Speichern der Bestellung.
+
+**Status:** Nicht ausgeführt
+
+---
+
+## TC-004 – Prüfung einer Bestellmenge von null
+
+**Zugehörige Anforderung:** FR-001
+
+**Zugehörige User Story:** US-001
+
+**Akzeptanzkriterium:** AK-003
+
+**Testdaten:** Artikelnummer ART-1001 (angenommen gültig), Bestellmenge 0
+
+**Testschritte:**
+1. Bestellformular öffnen.
+2. Gültige Artikelnummer eingeben.
+3. Bestellmenge 0 eingeben.
+4. Auf „Speichern“ klicken.
+
+**Erwartetes Ergebnis:** Das System zeigt eine Fehlermeldung an und verhindert das Speichern der Bestellung.
+
+**Status:** Nicht ausgeführt
