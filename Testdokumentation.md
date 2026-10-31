@@ -122,3 +122,56 @@ Das System zeigt eine Fehlermeldung an und verhindert das Speichern der Bestellu
 **Status:** Nicht ausgeführt
 
 **Hinweis:** Dieser Testfall wurde im Rahmen eines fiktiven Praxisprojekts konzipiert. Eine tatsächliche Testdurchführung hat nicht stattgefunden.
+
+
+## TC-006 – Automatischer Versand einer Bestellbestätigung
+
+**Zugehöriger Change Request:** CR-001
+
+**Zugehörige Anforderung:** FR-002
+
+**Zugehörige User Story:** US-002
+
+**Akzeptanzkriterien:** AK-004, AK-005 (vorläufig)
+
+**Testart:** Funktionaler Test
+
+**Status:** Entwurf – Nicht ausgeführt, noch nicht freigegeben
+
+### Testziel
+
+Überprüfen, ob nach erfolgreicher Speicherung einer Bestellung automatisch eine Bestellbestätigung an die hinterlegte E-Mail-Adresse versendet wird.
+
+### Testvoraussetzungen
+
+- Eine funktionsfähige Testumgebung ist verfügbar.
+- Der automatische E-Mail-Versand ist implementiert.
+- Eine gültige Test-E-Mail-Adresse ist hinterlegt.
+
+### Testdaten
+
+- Artikelnummer: ART-1001 (angenommen gültig)
+- Bestellmenge: 5
+- E-Mail-Adresse: kunde@example.com
+
+### Testschritte
+
+1. Bestellformular öffnen.
+2. Gültige Bestelldaten eingeben.
+3. Test-E-Mail-Adresse hinterlegen.
+4. Bestellung erfolgreich speichern.
+5. Prüfen, ob der automatische E-Mail-Versand ausgelöst wird.
+6. Prüfen, ob die Bestellbestätigung an die hinterlegte E-Mail-Adresse adressiert ist.
+
+### Erwartetes Ergebnis
+
+- Nach erfolgreicher Speicherung wird der E-Mail-Versand automatisch ausgelöst.
+- Die Bestellbestätigung wird an die hinterlegte E-Mail-Adresse adressiert.
+
+### Offene Punkte
+
+- Der Inhalt der Bestellbestätigung muss noch abgestimmt werden.
+- Der Umgang mit Versandfehlern wird in diesem Testfall nicht geprüft.
+- Die Akzeptanzkriterien müssen vor einer verbindlichen Testdurchführung freigegeben werden.
+
+**Hinweis:** Dieser Testfall wurde für einen fiktiven, noch nicht freigegebenen Change Request konzipiert. Eine tatsächliche Testdurchführung hat nicht stattgefunden.
