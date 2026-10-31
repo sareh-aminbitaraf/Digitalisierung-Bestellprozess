@@ -1,5 +1,3 @@
-<img width="1146" height="1102" alt="image" src="https://github.com/user-attachments/assets/9b4a91f5-cb00-48f1-a075-efccbfec4c9e" /># Anforderungsdokumentation
-
 ## 1. Funktionale Anforderungen
 
 ### FR-001 – Validierung der Bestelldaten
