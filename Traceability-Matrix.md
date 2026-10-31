@@ -33,14 +33,19 @@ Die folgende Übersicht zeigt die Beziehungen zwischen dem Change Request, der d
 
 | Change Request | Anforderung | User Story | Akzeptanzkriterien | Testfälle | Status |
 |---|---|---|---|---|---|
-| CR-001 | FR-002 | US-002 | AK-004, AK-005, AK-006 (vorläufig) | Noch nicht definiert | Entwurf – Noch nicht freigegeben |
+| Change Request | Anforderung | User Story | Akzeptanzkriterium | Testfall | Status |
+|---|---|---|---|---|---|
+| CR-001 | FR-002 | US-002 | AK-004 | TC-006 | Entwurf – Nicht ausgeführt |
+| CR-001 | FR-002 | US-002 | AK-005 | TC-006 | Entwurf – Nicht ausgeführt |
+| CR-001 | FR-002 | US-002 | AK-006 | TC-007 | Entwurf – Nicht ausgeführt |
 
 ### Offene Punkte
 
+- Für alle drei vorläufigen Akzeptanzkriterien wurden Testfälle konzipiert.
+- Die Testfälle TC-006 und TC-007 wurden noch nicht ausgeführt.
 - Die Akzeptanzkriterien müssen mit dem Auftraggeber abgestimmt werden.
-- Testfälle für FR-002 müssen noch konzipiert werden.
-- Der Umgang mit fehlgeschlagenem E-Mail-Versand ist noch zu klären.
-- Die Änderung darf erst nach entsprechender Freigabe als verbindliche Anforderung betrachtet werden.
+- Das weitere Vorgehen bei fehlgeschlagenem E-Mail-Versand ist noch zu klären.
+- Der Change Request CR-001 wurde noch nicht freigegeben.
 
 **Hinweis:** Die Verknüpfungen dokumentieren einen fiktiven Änderungsvorschlag. Eine Freigabe oder Umsetzung ist nicht erfolgt.
 
